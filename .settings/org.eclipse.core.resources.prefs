@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=utf-8
+encoding//src/main/java/com/account/dao/AdminDao.java=UTF-8
+encoding//src/main/java/com/account/interceptor/LoginInterceptor.java=utf-8
+encoding//src/main/java/com/account/util/CommonUtil.java=utf-8
+encoding//src/main/java/com/account/util/StringUtil.java=utf-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/index.jsp=UTF-8
+encoding//src/test/java=utf-8
+encoding//var/log/account/account-info-30de.log=UTF-8
+encoding/<project>=UTF-8
+separateDerivedEncodings=true

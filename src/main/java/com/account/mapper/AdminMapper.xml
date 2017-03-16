@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.account.dao.AdminDao">
+	<resultMap type="com.account.model.Admin" id="AdminBase">
+		<id property="adminId" column="admin_id" />
+		<result property="adminName" column="admin_name" />
+		<result property="adminPassword" column="admin_password" />
+	</resultMap>
+	<select id="adminLogin" parameterType="map" resultMap="AdminBase">
+		SELECT
+		*
+		FROM t_admin WHERE admin_name =#{adminName}
+		AND admin_password
+		=#{adminPassword};
+	</select>
+</mapper>

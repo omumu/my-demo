@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 /**
  * 手 撸一个 通用的 增删改查的 工具类或者一个可以说是一个 简单的框架
- * 
+ * 原理和Mybatis很相似
  * 
  */
 public class CRUDUtil {
